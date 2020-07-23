@@ -21,7 +21,12 @@ input{
   font-size: 18px;
   color: #6e6d6d;
   /*adds padding around actual text*/
-  padding-left: 5px;
+  padding-left: 10px;
+}
+
+::placeholder{
+  color: #dbd9db;
+  font-size: 15px;
 }
 
 .container{
@@ -48,6 +53,7 @@ input{
     font-size: 20px;
   }
 
+
   .h2{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -59,6 +65,12 @@ input{
     font-family: 'Roboto', sans-serif;
     color: #6e6d6d;
   }
+
+  .label{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
 
   p {
     font-size: 25px;
@@ -86,13 +98,14 @@ input{
 .formcontainer{
   margin-left:100px;
   margin-right: 100px;
-  height: 400px;
+  height: 480px;
   /*border: 1px solid blue;*/
   padding: 30px;
   display: flex;
   align-items: center;
   background-color: #ededed;
   border-radius: 3px;
+  box-shadow: 20px 20px 15px #6f6d68;
 }
 
 .form{
@@ -118,7 +131,7 @@ input{
 }
 
 .button{
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 input[type=text] {
@@ -193,20 +206,20 @@ input[type=text].companyname{
   }
 
   .h1{
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 60px;
     margin-bottom: 40px;
     text-align: center;
   }
 
   .h2{
-    font-size: 13px;
+    font-size: 12px;
 
   }
 
 .formcontainer{
-  height: 500px;
-  margin-bottom: 130px;
+  height: 600px;
+  margin-bottom: 110px;
 }
 
   .form{
@@ -236,3 +249,4 @@ input[type=text].companyname{
  }
 
 }
+
